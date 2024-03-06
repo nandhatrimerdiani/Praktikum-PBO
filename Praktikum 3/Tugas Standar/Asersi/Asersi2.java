@@ -26,4 +26,4 @@ public class Asersi2 {
     }
 }
 
-//Inisialisasi variabel jariJari dengan nilai 0 yang akan menyebabkan asersi selalu gagal dikarenakan asersi jariJari > 0 //
+//Salah di asersi karena ketika jarijari diberikan nilai minus si asersi mengeluarkan output "jari jari tidak boleh nol"//
