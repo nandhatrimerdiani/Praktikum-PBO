@@ -25,3 +25,5 @@ public class Asersi2 {
         System.out.println("keliling lingkaran = " + kelilingLingkaran);
     }
 }
+
+//Inisialisasi variabel jariJari dengan nilai 0 yang akan menyebabkan asersi selalu gagal dikarenakan asersi jariJari > 0 //
