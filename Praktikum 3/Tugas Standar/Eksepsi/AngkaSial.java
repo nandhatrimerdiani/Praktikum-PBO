@@ -25,3 +25,6 @@ public class AngkaSial {
         }
     }
 }
+
+// Baris 12 (System.out.println(angka + "bukan angka sial");) tidak akan dieksekusi jika terjadi eksepsi pada pemanggilan as.cobaAngka(13);. 
+//Baris 21 (System.out.println("hati-hati memasukkan angka!!!");) akan dieksekusi setelah blok catch ketika terjadi eksepsi, sehingga pesan tersebut akan ditampilkan//
