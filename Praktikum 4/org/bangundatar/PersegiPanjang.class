@@ -1,0 +1,23 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package org.bangundatar;
+
+import org.poligon.Poligon;
+
+public class PersegiPanjang extends Poligon {
+   private double panjang;
+   private double lebar;
+
+   public PersegiPanjang(double var1, double var3, int var5) {
+      this.panjang = var1;
+      this.lebar = var3;
+      this.jumlahSisi = var5;
+   }
+
+   public double hitungLuas() {
+      return this.panjang * this.lebar;
+   }
+
+   public void printInfo() {
+      System.out.println("Bangun persegi panjang berisi " + this.getJumlahSisi());
+   }
+}
